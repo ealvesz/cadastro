@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Cadastro de Funcionário</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Cadastro de Funcionário</h1>
+        <form>
+            <div class="form-group">
+                <label for="nome">Nome Completo:</label>
+                <input type="text" id="nome" required>
+            </div>
+
+            <div class="form-group">
+                <label for="cargo">Cargo:</label>
+                <input type="text" id="cargo" required>
+            </div>
+
+            <div class="form-group">
+                <label for="departamento">Departamento:</label>
+                <input type="text" id="departamento" required>
+            </div>
+
+            <div class="form-group">
+                <label for="dataAdmissao">Data de Admissão:</label>
+                <input type="date" id="dataAdmissao" required>
+            </div>
+
+            <div class="form-group">
+                <label for="salario">Salário:</label>
+                <input type="number" id="salario" required>
+            </div>
+
+            <div class="form-group">
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="endereco">Endereço:</label>
+                <input type="text" id="endereco" placeholder="Rua" required>
+                <input type="number" placeholder="Número" required>
+                <input type="text" placeholder="Bairro" required>
+                <input type="text" placeholder="Cidade" required>
+                <input type="text" placeholder="Estado" required>
+            </div>
+
+            <div class="form-group">
+                <label for="observacoes">Observações:</label>
+                <textarea id="observacoes"></textarea>
+            </div>
+
+            <button type="submit">Cadastrar</button>
+        </form>
+    </div>
+</body>
+</html>
